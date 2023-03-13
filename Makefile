@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pyproject_api
-URL = https://files.pythonhosted.org/packages/86/92/a63e1fd25adfde23f21d87676a4dc39fb969d2979c60aac9d7b3425d6223/pyproject_api-1.5.0.tar.gz
+URL = https://files.pythonhosted.org/packages/23/6f/d02d1cab4a30998806687036e03ffecbf66e35df6bfab5a29f22ec61a075/pyproject_api-1.5.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

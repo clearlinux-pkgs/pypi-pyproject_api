@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-pyproject_api
-Version  : 1.5.4
-Release  : 9
-URL      : https://files.pythonhosted.org/packages/b2/59/62fa314725be62fa37abea2f211e313eae61930e27e9704df8e9a4760ca4/pyproject_api-1.5.4.tar.gz
-Source0  : https://files.pythonhosted.org/packages/b2/59/62fa314725be62fa37abea2f211e313eae61930e27e9704df8e9a4760ca4/pyproject_api-1.5.4.tar.gz
+Version  : 1.6.1
+Release  : 10
+URL      : https://files.pythonhosted.org/packages/1b/c6/b39e42e1d721dcb35be6a7d35157795398193ec0b78a034c110bd0ab3e48/pyproject_api-1.6.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/1b/c6/b39e42e1d721dcb35be6a7d35157795398193ec0b78a034c110bd0ab3e48/pyproject_api-1.6.1.tar.gz
 Summary  : API to interact with the python pyproject.toml based projects
 Group    : Development/Tools
 License  : MIT
@@ -31,7 +31,7 @@ BuildRequires : pypi-virtualenv
 [![PyPI](https://img.shields.io/pypi/v/pyproject-api?style=flat-square)](https://pypi.org/project/pyproject-api/)
 [![Supported Python
 versions](https://img.shields.io/pypi/pyversions/pyproject-api.svg)](https://pypi.org/project/pyproject-api/)
-[![Downloads](https://pepy.tech/badge/pyproject-api/month)](https://pepy.tech/project/pyproject-api/month)
+[![Downloads](https://static.pepy.tech/badge/pyproject-api/month)](https://pepy.tech/project/pyproject-api)
 [![check](https://github.com/tox-dev/pyproject-api/actions/workflows/check.yml/badge.svg)](https://github.com/tox-dev/pyproject-api/actions/workflows/check.yml)
 [![Code style:
 black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -66,10 +66,10 @@ python3 components for the pypi-pyproject_api package.
 
 
 %prep
-%setup -q -n pyproject_api-1.5.4
-cd %{_builddir}/pyproject_api-1.5.4
+%setup -q -n pyproject_api-1.6.1
+cd %{_builddir}/pyproject_api-1.6.1
 pushd ..
-cp -a pyproject_api-1.5.4 buildavx2
+cp -a pyproject_api-1.6.1 buildavx2
 popd
 
 %build
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692305119
+export SOURCE_DATE_EPOCH=1693409481
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

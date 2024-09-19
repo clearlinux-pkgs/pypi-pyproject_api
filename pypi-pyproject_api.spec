@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-pyproject_api
-Version  : 1.7.2
-Release  : 15
-URL      : https://files.pythonhosted.org/packages/91/2f/0170742908a3f89a240df567642f505657741773aaed0749f9d3aeb80ab5/pyproject_api-1.7.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/91/2f/0170742908a3f89a240df567642f505657741773aaed0749f9d3aeb80ab5/pyproject_api-1.7.2.tar.gz
+Version  : 1.8.0
+Release  : 16
+URL      : https://files.pythonhosted.org/packages/bb/19/441e0624a8afedd15bbcce96df1b80479dd0ff0d965f5ce8fde4f2f6ffad/pyproject_api-1.8.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/bb/19/441e0624a8afedd15bbcce96df1b80479dd0ff0d965f5ce8fde4f2f6ffad/pyproject_api-1.8.0.tar.gz
 Summary  : API to interact with the python pyproject.toml based projects
 Group    : Development/Tools
 License  : MIT
@@ -66,10 +66,10 @@ python3 components for the pypi-pyproject_api package.
 
 
 %prep
-%setup -q -n pyproject_api-1.7.2
-cd %{_builddir}/pyproject_api-1.7.2
+%setup -q -n pyproject_api-1.8.0
+cd %{_builddir}/pyproject_api-1.8.0
 pushd ..
-cp -a pyproject_api-1.7.2 buildavx2
+cp -a pyproject_api-1.8.0 buildavx2
 popd
 
 %build
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1726613213
+export SOURCE_DATE_EPOCH=1726760192
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

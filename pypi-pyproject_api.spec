@@ -7,7 +7,7 @@
 #
 Name     : pypi-pyproject_api
 Version  : 1.9.0
-Release  : 18
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/7e/66/fdc17e94486836eda4ba7113c0db9ac7e2f4eea1b968ee09de2fe75e391b/pyproject_api-1.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7e/66/fdc17e94486836eda4ba7113c0db9ac7e2f4eea1b968ee09de2fe75e391b/pyproject_api-1.9.0.tar.gz
 Summary  : API to interact with the python pyproject.toml based projects
